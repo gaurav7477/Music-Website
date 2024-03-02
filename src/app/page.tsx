@@ -3,6 +3,8 @@ import HeroSection from '@/components/HeroSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import Cards from '@/components/Cards'
 import React from 'react'
+import UpcomingWebinars from '@/components/UpcomingWebinars'
+import Instructors from '@/components/Instructors'
 
 function page() {
   return (
@@ -11,6 +13,8 @@ function page() {
       <Featuredcourses/>
       <WhyChooseUs />
       <Cards />
+      <UpcomingWebinars />
+      <Instructors />
     </main>
   )
 }
