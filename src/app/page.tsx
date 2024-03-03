@@ -5,6 +5,7 @@ import Cards from '@/components/Cards'
 import React from 'react'
 import UpcomingWebinars from '@/components/UpcomingWebinars'
 import Instructors from '@/components/Instructors'
+import Footer from '@/components/Footer'
 
 function page() {
   return (
@@ -15,6 +16,7 @@ function page() {
       <Cards />
       <UpcomingWebinars />
       <Instructors />
+      <Footer />
     </main>
   )
 }
